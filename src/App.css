@@ -9,14 +9,36 @@ body {
   background-color: #2d2d2d;
 }
 
+#root > div > ul {
+  background-color: #212121;
+}
+
 .collection {
   border: 1px solid #00796b;
 }
 
 .collection .collection-item {
+  background-color: #424242;
   border-bottom: 1px solid #00796b;
 }
 
 .collection.with-header .collection-header {
   border-bottom: 2px solid #00796b;
+}
+
+.modal {
+  background-color: #424242;
+}
+.modal .modal-footer {
+  background-color: #424242;
+}
+
+select {
+  background-color: #616161;
+  border: 2px solid #00796b;
+  border-radius: 2px;
+}
+
+select:active {
+  outline: none;
 }

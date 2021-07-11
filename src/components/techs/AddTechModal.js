@@ -7,7 +7,11 @@ const AddTechModal = () => {
 
   const onSubmit = () => {
     if (firstName === '' || lastName === '') {
-      M.toast({ html: 'Please enter the first and last name' });
+      M.toast({
+        html: 'Please enter the first and last name',
+        classes: 'red darken-2',
+        displayLength: '2500',
+      });
     } else {
       console.log(firstName, lastName);
       // Clear Fields
